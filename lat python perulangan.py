@@ -44,3 +44,5 @@ while(jumlah_uang>0):
     jumlah_uang -= 1000
 
 print('waduh,uangku sudah habis toh')
+
+done
