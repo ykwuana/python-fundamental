@@ -4,7 +4,7 @@ print(f'ibu berkata, "baca semua bukumu"')
 jumlah_buku_yang_sudah_dibaca = 0
 # print(f'buku ke {jumlah_buku_yang_sudah_dibaca} sudah dibaca')
 
-while(jumlah_buku_yang_sudah_dibaca < jumlah_buku ):
+while(jumlah_buku_yang_sudah_dibaca < jumlah_buku):
     jumlah_buku_yang_sudah_dibaca += 1
     print(f'buku ke {jumlah_buku_yang_sudah_dibaca} sudah di baca')
 
