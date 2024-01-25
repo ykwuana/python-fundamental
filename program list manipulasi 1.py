@@ -74,8 +74,8 @@ print('untuk meremove data paling akhir')
 print(25*'=' + '\n')
 
 data_akhir = data.pop()  # bisa juga langsung spt >>>>> data.pop()>>>>>>tapi ini untuk pop aj
-print(f'data akhir diremove {data}')
-
+print(f'data akhir diremove {data}') # tapi bisa juga ditentukan urutan ke beberapa dengan mengisi urutan di []
+                                                           # misal : data.pop(1)
 print(f'nama akhir yang di hapus = {data_akhir}\n')
 
 #untuk menghapus data yang di tuju

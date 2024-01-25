@@ -3,11 +3,14 @@ print(25*'=')
 print('cara alternatif untuk output list')
 print(25*'=' + '\n')
 
-list_example = [30, 33, 50, 75, 40, 77, 60]
+list_example = [30, 33, 50, 75, 40, 77, 60, 55]
 for item in list_example:
     print(item)
+print('\n' + 5*'+' + ' ATAU ' + 5*'+')
 
-print('\n')
+for unit in range(0, len(list_example)):   # ini dipake kalo datanya urutan tertentu
+    print(list_example[unit])              # misal dari urutan 3 sd 10 atau 3 sd akhir
+
 #atau buat cari yang genap
 print(25*'=')
 print('untuk mencari yang genap')
@@ -54,3 +57,6 @@ print(25*'=' + '\n')
 
 data_list_2.reverse()
 print(f'setelah dibalik = {data_list_2}\n')
+
+data_list_2.remove(0)
+print(data_list_2)
