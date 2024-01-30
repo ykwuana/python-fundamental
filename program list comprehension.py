@@ -25,7 +25,7 @@
 #     print(daftar_buku_baru[i])
 
 data = [1,2,3,4,5,6,7,8,9]
-data_baru = data[1::2]
+data_baru = data[7::-2]
 
 for i in range(0, len(data_baru)):
     print(data_baru[i])
