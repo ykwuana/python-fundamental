@@ -36,4 +36,4 @@ print(angka)
 print(angka_dummy)
 
 
-for i in range(0,5):
+

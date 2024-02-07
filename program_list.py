@@ -20,3 +20,9 @@ print(list_pake_for_if)
 
 list_pake_for_if = [i**2 for i in range(0,10) if i%2 != 0]    # ganjil kuadrat
 print(list_pake_for_if)
+
+
+# numpang buat materi import
+
+def tambah(a,b):
+    return a+b
